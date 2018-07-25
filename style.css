@@ -1,0 +1,37 @@
+.input{
+    height: 450px;
+    width: 100%;
+    background: gray;
+}
+.output{
+    overflow: auto;
+    height: 250px;
+    width: 200px;
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    min-height: 2em;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+}
+.sticky{
+position: sticky;
+top: 0;
+height: 24px;
+line-height: 24px;
+padding-left: 8px;
+background: #bdbdbd;
+font-weight: bold;
+color: #ffffff
+}
+
+.person-contact {
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #eaeaea;
+    padding-left: 12px;
+    color:#000000;
+}
